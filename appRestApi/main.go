@@ -43,7 +43,7 @@ func helloApi (w http.ResponseWriter, r *http.Request) {
 
 func main() {
 
-	//asdfasdfasdf
+	//111111111
 	// Open sql database with credentials from envVar
 	// sql.Open(Driver_name, DB_user + DB_user_password from envVar, DB_adress, DB_name)
 	/*
