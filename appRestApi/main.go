@@ -84,8 +84,7 @@ func readTodos (w http.ResponseWriter, r *http.Request) {
 			log.Fatal(err)
 		}
 		log.Println(todo)
-		todoList.add(todo)
-		
+		todoList.add(todo)		
 	}
 	if i == 0 {
         log.Printf("Keine Todos vorhanden!")
